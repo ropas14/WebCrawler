@@ -109,7 +109,7 @@
        if (link.indexOf("email-protection#") == -1) {
          pagesUrls.push(link);
          item.urls = link;
-         let item_sources = item;
+         let item_sources = item.urls;
          saveData(item_sources);
        }
      }
